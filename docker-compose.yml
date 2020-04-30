@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+ ashuapp:
+  image: dockerashu/apri2020web:v007
+  container_name: ashuc1
+  ports:
+   - "8877:80"
