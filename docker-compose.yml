@@ -6,6 +6,4 @@ services:
   ports:
    - "80:80"
   environment:
-   - DOCKER_TLS_CERTDIR=/certs
-  volumes:
-   - jenkins-docker-certs:/certs/client
+   - DOCKER_TLS_CERTDIR=/certs/client
