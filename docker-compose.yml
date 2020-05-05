@@ -7,5 +7,3 @@ services:
    - "80:80"
   volumes: 
    - jenkins-docker-certs:/certs/client
-volumes:
- jenkins-docker-certs:
