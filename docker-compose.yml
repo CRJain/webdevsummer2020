@@ -4,4 +4,4 @@ services:
   image: crjain/demojenkins:v11
   container_name: demo_c
   ports:
-   - "8877:80"
+   - "80:80"
