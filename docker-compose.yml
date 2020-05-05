@@ -5,5 +5,3 @@ services:
   container_name: demo_c
   ports:
    - "80:80"
-  volumes: 
-   - jenkins-docker-certs:/certs/client
